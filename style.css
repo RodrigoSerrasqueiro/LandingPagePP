@@ -10,9 +10,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* seção video-container */
+
 .video-container {
   width: 100%;
-  height: 190vh;
+  height: 1360px;
   background-image: url('./assets/background-initial.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -20,7 +22,7 @@
 
 .modal {
   width: 100%;
-  height: 190vh;
+  height: 1360px;
   background-image: linear-gradient(180deg, #51003B 0%, #004388 100%);
   opacity: 0.8;
   mix-blend-mode: multiply;
@@ -92,13 +94,73 @@
   font-weight: 400;
 }
 
-.video-container-video {
+.video {
   width: 100%;
   padding: 0 390px;
 }
 
-.video-container-video div {
+.video div {
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: #004388;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.video-content-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.video-content-description span {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.video-content-description i {
+  margin-right: 5px;
+}
+
+#volume-message {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.button-description {
+  width: 100%;
+  padding: 0 300px;
+  margin: 80px 0 40px 0;
+}
+
+.button-description p {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.button-link {
+  font-family: "Poppins", Sans-serif;
+  font-size: 27px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: transparent;
+  background-image: linear-gradient(150deg, #481FC2 0%, #540079 100%);
+  border-radius: 44px;
+  box-shadow: 0px 0px 48px 1px #000;
+  padding: 15px 20px;
+  margin-bottom: 60px;
+}
+
+.arrow-icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-icon i {
+  font-weight: 400;
+  font-size: 2.5rem;
 }
