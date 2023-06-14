@@ -8,8 +8,8 @@
   <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
 </head>
 <body>
+  <div class="modal"></div>
   <section class="video-container">
-    <div class="modal"></div>
     <div class="video-content">
       <div class="video-content-logo">
         <img class="logo" src="./assets/logoPP.png" alt="logo">
@@ -43,6 +43,50 @@
       </a>
       <div class="arrow-icon">
         <i class="fa-regular fa-circle-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="programmers-salary">
+    <div class="programmers-salary-container">
+      <div class="programmers-salary-content">
+        <div class="average-wage-title-container">
+          <div class="average-wage-title">
+            <span>média salarial</span>
+            <span>de programadores</span>
+          </div>
+        </div>
+        <div class="average-wage-dashboard">
+          <div class="average-wage">
+            <span>Programador Júnior (Iniciante)</span>
+            <div class="salary-bar">
+              <div class="progress" id="progress-junior"></div>
+            </div>
+            <p>R$ 3.658,92</p>
+          </div>
+          <div class="average-wage">
+            <span>Programador Pleno (Intermediário)</span>
+            <div class="salary-bar">
+              <div class="progress" id="progress-pleno"></div>
+            </div>
+            <p>R$ 7.387,42</p>
+          </div>
+          <div class="average-wage">
+            <span>Programador Sênior (Avançado)</span>
+            <div class="salary-bar">
+              <div class="progress" id="progress-senior"></div>
+            </div>
+            <p>R$ 14.399,46</p>
+          </div>
+          <div class="average-wage" id="average-wage-about">
+            <span id="about-the-research">
+              *pesquisa salarial feita pelo Código Fonte TV, com mais de 11 mil programadores, 
+            </span>
+            <span id="about-the-research">
+              no ano de 2022.
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
