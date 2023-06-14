@@ -213,7 +213,7 @@
 .average-wage-dashboard {
   width: 50%;
   height: 100%;
-  padding: 15px 5px;
+  padding: 15px 200px 15px 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -268,9 +268,81 @@
 }
 
 #progress-pleno {
-  width: 70%;
+  width: 81%;
 }
 
 #progress-senior {
+  width: 94%;
+}
+
+/* seção benefits */
+
+.benefits {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.benefits-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.benefits-container h1 {
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.benefits-container p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 36px;
+  letter-spacing: 0.7px;
+  margin-bottom: 100px;
+}
+
+.vacant-job {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.vacant-job i {
+  font-size: 91px;
+  font-weight: 700;
+  color: #D0C8D8;
+}
+
+.vacant-job-description {
+  display: flex;
+  flex-direction: column;
   width: 80%;
+  margin-bottom: 70px;
+}
+
+#vacant-job-description-span1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#vacant-job-description-span2 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#vacant-job-description-span3 {
+  font-size: 19px;
+  font-weight: 700;
 }
