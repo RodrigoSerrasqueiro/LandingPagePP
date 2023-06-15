@@ -476,3 +476,64 @@
 #icon3 {
   padding: 0 30px;
 }
+
+/* seção programming-universe */
+
+.programming-universe {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  position: relative;
+  z-index: 1;
+}
+
+.programming-universe-container {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.programming-universe-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.programming-universe-text span {
+  font-size: 29px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.programming-universe-text h1 {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.programming-universe-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 220px;
+}
+
+.programming-universe-img img {
+  width: 100%;
+  height: auto;
+}
+
+.programming-universe-paragraph {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-top: 20px;
+}
+
+.programming-universe-paragraph span {
+  font-size: 19px;
+}
