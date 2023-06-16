@@ -803,3 +803,89 @@
   padding: 15px 20px;
   margin-bottom: 60px;
 }
+
+/* seção tecnologies */
+
+.tecnologies {
+  position: relative;
+  width: 100%;
+  padding: 130px 80px 30px;
+}
+
+.tecnologies::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('./assets/background-fullstack-professional.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: brightness(0.10);
+}
+
+.tecnologies-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.tecnologies-container h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.tecnologies-container h2 {
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.tecnologies-content {
+  width: 100%;
+  padding: 0 260px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tecnologies-content img {
+  width: 150px;
+  height: 180px;
+  transition: 1s;
+}
+
+.tecnologies-content img:hover {
+  filter: brightness(0.50);
+  cursor: pointer;
+}
+
+/* seção certificate */
+
+.certificate {
+  width: 100%;
+  padding: 100px 200px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  position: relative;
+  z-index: 1;
+}
+
+.certificate h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.certificate img {
+  width: 64%;
+  box-shadow: 5px 0px 100px 16px rgba(204, 45, 164.69, 0.5);
+}
